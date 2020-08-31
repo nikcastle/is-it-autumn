@@ -1,19 +1,26 @@
 {
   "files": {
-    "main.js": "/is-it-fall/index.html/static/js/main.1ca35288.chunk.js",
-    "main.js.map": "/is-it-fall/index.html/static/js/main.1ca35288.chunk.js.map",
-    "runtime-main.js": "/is-it-fall/index.html/static/js/runtime-main.791328c2.js",
-    "runtime-main.js.map": "/is-it-fall/index.html/static/js/runtime-main.791328c2.js.map",
-    "static/js/2.9205012a.chunk.js": "/is-it-fall/index.html/static/js/2.9205012a.chunk.js",
-    "static/js/2.9205012a.chunk.js.map": "/is-it-fall/index.html/static/js/2.9205012a.chunk.js.map",
-    "index.html": "/is-it-fall/index.html/index.html",
-    "precache-manifest.d09e34056d1be57714a36b7fb50dc170.js": "/is-it-fall/index.html/precache-manifest.d09e34056d1be57714a36b7fb50dc170.js",
-    "service-worker.js": "/is-it-fall/index.html/service-worker.js",
-    "static/js/2.9205012a.chunk.js.LICENSE.txt": "/is-it-fall/index.html/static/js/2.9205012a.chunk.js.LICENSE.txt"
+    "main.css": "/is-it-fall/static/css/main.1e82778d.chunk.css",
+    "main.js": "/is-it-fall/static/js/main.2ce02bec.chunk.js",
+    "main.js.map": "/is-it-fall/static/js/main.2ce02bec.chunk.js.map",
+    "runtime-main.js": "/is-it-fall/static/js/runtime-main.7f3b07d2.js",
+    "runtime-main.js.map": "/is-it-fall/static/js/runtime-main.7f3b07d2.js.map",
+    "static/css/2.11829350.chunk.css": "/is-it-fall/static/css/2.11829350.chunk.css",
+    "static/js/2.e08168f0.chunk.js": "/is-it-fall/static/js/2.e08168f0.chunk.js",
+    "static/js/2.e08168f0.chunk.js.map": "/is-it-fall/static/js/2.e08168f0.chunk.js.map",
+    "index.html": "/is-it-fall/index.html",
+    "precache-manifest.5ae810245346c756376658581daa3983.js": "/is-it-fall/precache-manifest.5ae810245346c756376658581daa3983.js",
+    "service-worker.js": "/is-it-fall/service-worker.js",
+    "static/css/2.11829350.chunk.css.map": "/is-it-fall/static/css/2.11829350.chunk.css.map",
+    "static/css/main.1e82778d.chunk.css.map": "/is-it-fall/static/css/main.1e82778d.chunk.css.map",
+    "static/js/2.e08168f0.chunk.js.LICENSE.txt": "/is-it-fall/static/js/2.e08168f0.chunk.js.LICENSE.txt",
+    "static/media/forest-road.png": "/is-it-fall/static/media/forest-road.d49afc4c.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.791328c2.js",
-    "static/js/2.9205012a.chunk.js",
-    "static/js/main.1ca35288.chunk.js"
+    "static/js/runtime-main.7f3b07d2.js",
+    "static/css/2.11829350.chunk.css",
+    "static/js/2.e08168f0.chunk.js",
+    "static/css/main.1e82778d.chunk.css",
+    "static/js/main.2ce02bec.chunk.js"
   ]
 }
