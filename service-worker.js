@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/is-it-fall/precache-manifest.5ae810245346c756376658581daa3983.js"
+  "/is-it-fall/precache-manifest.6fec46d071971034a4885bd0656170da.js"
 );
 
 self.addEventListener('message', (event) => {
