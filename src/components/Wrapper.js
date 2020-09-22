@@ -7,9 +7,12 @@ import NotAutumn from "../pages/Not-Autumn";
 function Wrapper(props) {
     console.log(isFall);
 
+    
+
     return (
     <>
-         {isFall ? <Autumn/> : <NotAutumn/>}
+          <Autumn/>
+         {/* {isFall ? <Autumn/> : <NotAutumn/>} */}
     </>);
   }
   

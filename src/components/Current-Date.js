@@ -2,7 +2,10 @@ import React from 'react';
 
 
   const CurrentDate = () => {
-    const today = new Date().toISOString()
+    let today = new Date();
+    today = today.toISOString
+    console.log(today);
+    
     return (
       <>
           {today}

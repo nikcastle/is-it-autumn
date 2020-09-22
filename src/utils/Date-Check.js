@@ -11,7 +11,9 @@ const winter = stockYear.winter;
 
 console.log(fall);
 
-export const isFall = Date(CurrentDate) >= Date(fall) && Date(CurrentDate) < Date(winter)
+
+
+export const isFall = CurrentDate >= fall && CurrentDate < winter
        
 
 

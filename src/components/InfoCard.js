@@ -1,41 +1,48 @@
 import React, { useState } from "react"
-import { Button, Card, CardBody, CardHeader, Col, Collapse } from "reactstrap";
+import { Button, ButtonLabel, Card, CardBody, CardHeader, Col, Collapse, Modal, ModalHeader, ModalBody, ModalFooter } from "reactstrap";
 import styled from "styled-components";
 
-const StyleWrapper = styled.article`
-    card {
-        background-color: #e5c080;
-        border: none;
-    }
 
+const StyleModal = styled(Modal)`
+    border: 5px solid #dfc140;
+    border-radius: 10px;
+    width: 100vw;
+
+    .modal-header {
+        text-decoration: underline;
+        font-family: 'Oldenburg', cursive
+    }
     .toggle {
         background-color: #734024;
         border: none;
         color: #fdfbd9
     }
-    `
+
+`
 
 const InfoCard = ({ name, description, link }) => {
 
-    const [isOpen, setIsOpen] = useState(false);
-    const toggle = () => setIsOpen(!isOpen);
+      const [modal, setModal] = useState(false);
+    
+      const toggle = () => setModal(!modal);
+    
+      return (
+        <div>
+          <Button onClick={toggle} style={{ marginBottom: '1rem' }} name={name} className="toggle">{name}</Button>
+          <StyleModal isOpen={modal} toggle={toggle}>
+            <ModalHeader toggle={toggle}>{name}</ModalHeader>
+            <ModalBody>
+                 <p>
+                    {description}
+                </p>
+            </ModalBody>
+            <ModalFooter>
+                <Button color="link" target="blank" href={link}>Learn More</Button>
+            </ModalFooter>
+          </StyleModal>
+        </div>
+      );
 
-
-    return (
-        <StyleWrapper>
-        <Button placement="top" onClick={toggle} style={{ marginBottom: '1rem' }} name={name} className="toggle">{name}</Button>
-            <Collapse isOpen={isOpen}>
-                <Card>
-                    <CardBody>
-                        <p>
-                        {description}
-                        </p>
-                    <Button color="link" target="blank" href={link}>Learn More</Button>
-                    </CardBody>
-                </Card>
-            </Collapse>
-        </StyleWrapper>
-    )
 };
 
 export default InfoCard;
