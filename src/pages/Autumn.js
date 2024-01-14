@@ -79,7 +79,7 @@ const Autumn = () => {
 						<Col md={2}>
 							<InfoCard
 								name='Happy Harvest'
-								description='The Autumn Equinox is the first day of the autumn season and occurs when the sun passes the equator moving from the northern to the southern hemisphere. The North Pole begins to tilt away from the sun. Day and night have approximately the same length. Autumnal equinox is near 22 September.'
+								description='The Autumnal Equinox is the first day of the autumn season and occurs when the sun passes the equator moving from the northern to the southern hemisphere. The North Pole begins to tilt away from the sun. Day and night have approximately the same length. Autumnal equinox is near 22 September.'
 								link='https://www.britannica.com/science/autumnal-equinox'
 							/>
 						</Col>

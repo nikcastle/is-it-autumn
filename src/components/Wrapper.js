@@ -4,9 +4,9 @@ import Autumn from '../pages/Autumn';
 import NotAutumn from '../pages/Not-Autumn';
 
 const Wrapper = () => {
-	// return <Autumn/>
+	return <Autumn />;
 	// return <NotAutumn/>
-	return <>{isFall() ? <Autumn /> : <NotAutumn />}</>;
+	// return <>{isFall() ? <Autumn /> : <NotAutumn />}</>;
 };
 
 export default Wrapper;
