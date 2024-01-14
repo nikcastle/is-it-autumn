@@ -62,13 +62,6 @@ const Autumn = () => {
 				</Row>
 				<footer>
 					<Row>
-						{/* <Col md={{size: 2, offset: 1}}>
-                        <InfoCard 
-                        name="Stay Spooky"
-                        description="How to stay spooky"
-                        link="test link
-                        "/>
-                    </Col> */}
 						<Col md={{ size: 5, offset: 2 }}>
 							<InfoCard
 								name='Stay Spooky'
