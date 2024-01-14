@@ -3,15 +3,10 @@ import { isFall } from '../utils/basicFunctions';
 import Autumn from '../pages/Autumn';
 import NotAutumn from '../pages/Not-Autumn';
 
-const Wrapper = (props) => {
-	console.log(isFall);
-
-	return (
-		<>
-			{/* <NotAutumn /> */}
-			{isFall ? <Autumn /> : <NotAutumn />}
-		</>
-	);
+const Wrapper = () => {
+	// return <Autumn/>
+	// return <NotAutumn/>
+	return <>{isFall() ? <Autumn /> : <NotAutumn />}</>;
 };
 
 export default Wrapper;
